@@ -9,8 +9,8 @@ export default function Navbar() {
 
   return (
     <header className="text-aaooGray bg-aaooBgGray flex items-center justify-center text-lg font-semibold">
-      <nav className="flex w-[90%] items-center justify-between">
-        <NavLink onClick={() => setActiveLink(null)}>
+      <nav className="xs:flex hidden w-[90%] items-center justify-between">
+        <NavLink to="home" onClick={() => setActiveLink(null)}>
           <img src={Logo} alt="AAOO Logo" />
         </NavLink>
 
@@ -19,7 +19,7 @@ export default function Navbar() {
             <NavLink
               to="home"
               onClick={() => setActiveLink("home")}
-              className={`hover:border-aaooBlack hover:text-aaooBlack border-4 border-transparent px-3 py-2 hover:rounded-xl ${
+              className={`hover:border-aaooBlack hover:text-aaooBlack border-4 border-transparent px-3 py-2 transition-all duration-1000 hover:rounded-xl ${
                 activeLink === "home"
                   ? "border-aaooBlack text-aaooBlack rounded-xl"
                   : ""
@@ -33,7 +33,7 @@ export default function Navbar() {
             <NavLink
               to="about"
               onClick={() => setActiveLink("about")}
-              className={`hover:border-aaooBlack hover:text-aaooBlack border-4 border-transparent px-3 py-2 hover:rounded-xl ${
+              className={`hover:border-aaooBlack hover:text-aaooBlack border-4 border-transparent px-3 py-2 transition-all duration-1000 hover:rounded-xl ${
                 activeLink === "about"
                   ? "border-aaooBlack text-aaooBlack rounded-xl"
                   : ""
@@ -47,7 +47,7 @@ export default function Navbar() {
             <NavLink
               to="services"
               onClick={() => setActiveLink("services")}
-              className={`hover:border-aaooBlack hover:text-aaooBlack border-4 border-transparent px-3 py-2 hover:rounded-xl ${
+              className={`hover:border-aaooBlack hover:text-aaooBlack border-4 border-transparent px-3 py-2 transition-all duration-1000 hover:rounded-xl ${
                 activeLink === "services"
                   ? "border-aaooBlack text-aaooBlack rounded-xl"
                   : ""
