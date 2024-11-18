@@ -36,7 +36,7 @@ export default function Navbar() {
 
         <NavLink
           to="contact"
-          className="hover hidden rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack sm:hidden md:block"
+          className="hove hidden rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack sm:hidden md:block"
         >
           Contact Us
         </NavLink>
@@ -59,7 +59,7 @@ export default function Navbar() {
                 ✕
               </label>
               {/* <h2 className="text-xl font-medium">Create your account</h2> */}
-              <ul className="flex w-full flex-col gap-20 text-aaooGray md:flex">
+              <ul className="flex w-full flex-col gap-6 text-aaooGray md:flex">
                 {[
                   { to: "Home", label: "Home" },
                   { to: "about", label: "About Us" },
