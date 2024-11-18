@@ -119,13 +119,13 @@ export default function Home() {
 
       <div className="px-3 md:space-y-6 md:px-0">
         <div>
-          <h1 className="text-base font-semibold uppercase md:text-5xl">
+          <h1 className="text-xl font-semibold uppercase md:text-5xl">
             services
           </h1>
         </div>
 
         <div aria-label="services render">
-          <div className="space-y-8 divide-y-2 divide-aaooBlack">
+          <div className="space-y-2 divide-y-2 divide-aaooBlack">
             <ServiceCard
               title="Property Management"
               description="We offer comprehensive property management services that ensure your property is well-maintained, maximized for profitability, and compliant with all legal."

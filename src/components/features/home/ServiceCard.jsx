@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function ServiceCardList({ title, description }) {
   return (
     <div className="group flex items-center justify-between gap-4">
-      <div className="space-y-2 pt-10">
-        <h3 className="text-sm font-semibold md:text-5xl">{title}</h3>
-        <p className="w-[100%] text-[10px] text-aaooGray md:text-base">
+      <div className="space-y-2 pt-3">
+        <h3 className="text-base font-semibold md:text-5xl">{title}</h3>
+        <p className="w-[100%] text-sm text-aaooGray md:text-base">
           {description}
         </p>
       </div>
