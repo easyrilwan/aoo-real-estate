@@ -1,4 +1,4 @@
-import Home_1 from "../../../assets/images/home-1.jpeg";
+import Home_1 from "../../../assets/images/home/home-1.jpeg";
 
 export default function ImageGrid() {
   return (

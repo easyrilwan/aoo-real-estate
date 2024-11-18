@@ -5,8 +5,8 @@ import CardList from "../components/features/home/CardList";
 import ServiceCard from "../components/features/home/ServiceCard";
 import Faq from "../components/features/home/Faq";
 
-import Home_1 from "../assets/images/home-1.jpeg";
-import Image_1 from "../assets/images/image-1.jpeg";
+import Home_1 from "../assets/images/home/home-1.jpeg";
+import Image_1 from "../assets/images/home/image-1.jpeg";
 import Testimonial from "../components/features/home/Testimonial";
 import ImageGrid from "../components/features/home/ImageGrid";
 import { Link } from "react-router-dom";

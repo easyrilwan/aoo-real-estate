@@ -1,6 +1,6 @@
 export default function Testimonial({ description, name, avatar }) {
   return (
-    <div className="mb-8 rounded-xl border bg-secondary p-6 shadow-lg">
+    <div className="mb-8 rounded-xl border bg-aaooWhite p-6 shadow-lg">
       <p className="text-text my-3 text-justify text-[0.9rem]">
         {description || "No testimonial provided"}
       </p>
