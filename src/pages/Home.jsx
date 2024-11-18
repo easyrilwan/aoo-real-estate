@@ -26,9 +26,12 @@ export default function Home() {
             wide range of properties tailored to your lifestyle
           </p>
 
-          <button className="flex items-center gap-4 rounded-xl bg-aaooBlack p-4 text-xl text-aaooWhite">
+          <Link
+            to="/services"
+            className="inline-flex items-center gap-4 rounded-xl bg-aaooBlack p-4 text-xl text-aaooWhite"
+          >
             Get Started <HiArrowRight />
-          </button>
+          </Link>
         </div>
 
         <div className="h-full w-full">
@@ -209,7 +212,7 @@ export default function Home() {
 
           <Link
             to="/services"
-            className="hover absolute left-4 top-4 rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
+            className="absolute left-4 top-4 rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
           >
             Get Started
           </Link>
