@@ -48,15 +48,15 @@ const BorderAccording = () => {
           className="rounded-2xl border-2 border-aaooBlack p-3"
         >
           <div
-            className="flex w-full cursor-pointer items-start justify-between gap-2 px-1 py-4"
+            className="flex w-full cursor-pointer items-baseline justify-between gap-2 px-1 py-4 md:items-start"
             onClick={() => handleBorderClick(index)}
           >
-            <h2 className="text-aaooB text-2xl font-[600]">
+            <h2 className="text-aaooB text-lg font-[600] md:text-2xl">
               {according.title}
             </h2>
             <p>
               <FaPlus
-                className={`text-4xl text-aaooBlack transition-all duration-500 ${
+                className={`text-lg text-aaooBlack transition-all duration-500 md:text-4xl ${
                   isAccordingOpen === index && "!text-aao rotate-[45deg]"
                 }`}
               />
@@ -70,7 +70,7 @@ const BorderAccording = () => {
                 : "grid-rows-[0fr] opacity-0"
             }`}
           >
-            <p className="w-[60%] overflow-hidden text-xl font-normal text-aaooGray">
+            <p className="w-full overflow-hidden text-sm font-normal text-aaooGray md:w-[60%] md:text-xl">
               {according.description}
             </p>
           </div>
