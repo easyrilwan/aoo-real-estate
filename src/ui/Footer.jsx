@@ -1,6 +1,8 @@
 import { CgFacebook } from "react-icons/cg";
 import { BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -53,7 +55,7 @@ export default function Footer() {
 
             <div className="flex flex-col gap-[8px] text-white">
               <ul>
-                <div className="cursor-pointer space-y-3">
+                <div className="space-y-3">
                   <li>+2347067509767, +2348114987120</li>
                   <li>Aao.realto@gmail.com</li>
                   <li>
@@ -91,12 +93,29 @@ export default function Footer() {
             </p>
           </div>
 
-          <a className="cursor-pointer text-[0.8rem] text-gray-400">
-            Security and privacy
-          </a>
-          <a className="cursor-pointer text-[0.8rem] text-gray-400">
-            Newsletter
-          </a>
+          <div className="flex gap-3">
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer text-[0.8rem] text-white"
+            >
+              <RiInstagramFill size={20} />
+            </a>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer text-[0.8rem] text-white"
+            >
+              <FaWhatsapp size={20} />
+            </a>
+          </div>
+
+          <div className="flex justify-between gap-3 font-light capitalize text-aaooWhite">
+            <p>Copyright &copy; 2024</p>
+            <p>All right Reserved</p>
+          </div>
         </div>
       </div>
     </div>

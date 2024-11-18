@@ -7,11 +7,13 @@ import Faq from "../components/features/home/Faq";
 
 import Home_1 from "../assets/images/home-1.jpeg";
 import Image_1 from "../assets/images/image-1.jpeg";
+import Testimonial from "../components/features/home/Testimonial";
+import ImageGrid from "../components/features/home/ImageGrid";
 
 export default function Home() {
   return (
     <section>
-      <div className="grid grid-cols-1 pb-36 pt-16 capitalize md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-y-10 pb-36 pt-16 capitalize md:grid-cols-2">
         <div className="space-y-6 self-center text-aaooBlack">
           <h1 className="text-6xl font-semibold">
             making your <span className="text-aaooRed">home</span> ownership
@@ -28,16 +30,12 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="h-full">
-          <img
-            src={Home_1}
-            alt="Home Image 1"
-            className="w-full object-cover"
-          />
+        <div className="h-full w-full">
+          <ImageGrid />
         </div>
       </div>
 
-      <div className="grid place-items-center gap-8 bg-green-200 pb-36 pt-16 capitalize">
+      <div className="grid place-items-center gap-8 pb-36 pt-16 capitalize">
         <h2 className="w-[70%] text-center text-5xl font-semibold">
           your trusted real estate expert&mdash; turning dreams into reality
         </h2>
@@ -150,7 +148,21 @@ export default function Home() {
             />
           </div>
 
-          <div className="space-y-6 pb-36 pt-16">
+          <div className="mt-10 space-y-4">
+            <h1 className="font-Montserrat text-5xl font-semibold capitalize">
+              what everyone says
+            </h1>
+
+            <div className="flex w-full justify-between gap-3 overflow-x-auto">
+              <Testimonial />
+              <Testimonial />
+            </div>
+          </div>
+
+          <div
+            aria-label="Frequently Asked Question"
+            className="space-y-6 pb-36 pt-16"
+          >
             <div className="space-y-4 text-center">
               <h1 className="text-5xl font-semibold uppercase">
                 FREQUENTLY ASKED QUESTIONS
@@ -165,7 +177,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div></div>
+      <div className="relative mb-24 max-h-[670px] w-full overflow-hidden rounded-3xl">
+        <img src={Image_1} alt="" className="block h-full w-full" />
+        <p className="absolute right-1/2 top-[68%] z-[1] translate-x-1/2 font-Monoton text-[195px] text-aaooBlack">
+          applynow
+        </p>
+      </div>
     </section>
   );
 }

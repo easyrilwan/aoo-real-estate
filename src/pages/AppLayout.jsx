@@ -4,7 +4,7 @@ import Footer from "../ui/Footer";
 
 export default function AppLayout() {
   return (
-    <div className="flex flex-col items-center px-4 md:px-0">
+    <div className="flex flex-col items-center px-0">
       <header className="fixed z-[999] flex w-full bg-aaooBgGray/30 py-2 shadow-sm backdrop-blur-lg md:w-full md:justify-center">
         <NavBar />
       </header>
@@ -13,7 +13,7 @@ export default function AppLayout() {
         <Outlet />
       </main>
 
-      <footer className="flex w-full justify-center bg-aaooBlack">
+      <footer className="z-[1] flex w-full justify-center bg-aaooBlack">
         <Footer />
       </footer>
     </div>
