@@ -28,7 +28,7 @@ export default function Home() {
 
           <Link
             to="/services"
-            className="inline-flex items-center gap-4 rounded-xl bg-aaooBlack p-4 text-sm text-aaooWhite md:text-xl"
+            className="inline-flex items-center gap-4 rounded-xl border-4 border-aaooBlack bg-aaooBlack p-4 text-sm text-aaooWhite transition-all hover:border-4 hover:border-aaooBlack hover:bg-transparent hover:text-aaooBlack md:text-xl"
           >
             Get Started <HiArrowRight />
           </Link>
@@ -148,6 +148,7 @@ export default function Home() {
             <h1 className="font-Montserrat text-2xl font-semibold capitalize md:text-5xl">
               what everyone says
             </h1>
+
             <div className="grid h-full w-full grid-cols-1 items-center gap-x-4 md:grid-cols-2 lg:grid-cols-3">
               <Testimonial
                 description={`“Working with AAO made buying my first home such an easy and stress-free experience! They walked me through every step, explaining all the details and options, so I felt informed and comfortable with each decision.”`}

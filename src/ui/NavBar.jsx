@@ -59,7 +59,7 @@ export default function Navbar() {
                 ✕
               </label>
               {/* <h2 className="text-xl font-medium">Create your account</h2> */}
-              <ul className="flex w-full flex-col gap-6 text-aaooGray md:flex">
+              <ul className="mt-10 flex w-full flex-col gap-6 text-aaooGray md:flex">
                 {[
                   { to: "Home", label: "Home" },
                   { to: "about", label: "About Us" },
