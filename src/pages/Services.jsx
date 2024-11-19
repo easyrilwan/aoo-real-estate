@@ -1,5 +1,4 @@
 import Hero from "../assets/images/services/service-4.jpeg";
-import ImageOne from "../assets/images/services/service-1.jpeg";
 
 import ServiceListAll from "../components/features/services/ServiceListAll";
 

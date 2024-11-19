@@ -28,7 +28,7 @@ export default function Home() {
 
           <Link
             to="/services"
-            className="inline-flex items-center gap-4 rounded-xl bg-aaooBlack p-4 text-xl text-aaooWhite"
+            className="inline-flex items-center gap-4 rounded-xl bg-aaooBlack p-4 text-sm text-aaooWhite md:text-xl"
           >
             Get Started <HiArrowRight />
           </Link>
@@ -48,7 +48,7 @@ export default function Home() {
             <img
               src={Image_1}
               alt="Image 1"
-              className="h-full w-full object-cover"
+              className="h-full w-full border object-cover shadow-md"
             />
           </div>
           <div className="flex flex-col justify-between gap-4">
@@ -188,7 +188,7 @@ export default function Home() {
 
           <div
             aria-label="Frequently Asked Question"
-            className="space-y-6 pb-36 pt-16"
+            className="my-16 space-y-6"
           >
             <div className="space-y-4 text-center">
               <h1 className="text-lg font-semibold uppercase md:text-5xl">
@@ -204,15 +204,19 @@ export default function Home() {
       </div>
 
       <div className="">
-        <div className="relative mb-24 h-full w-full overflow-hidden rounded-3xl">
-          <img src={Image_1} alt="" className="block h-full w-full" />
-          <p className="absolute bottom-2 right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[400%] text-aaooBlack">
+        <div className="relative mb-16 h-full w-full overflow-hidden rounded-3xl p-2 px-3">
+          <img
+            src={Image_1}
+            alt="Apply now Image with Get Started Button"
+            className="h-full w-full rounded-3xl border object-cover shadow-md"
+          />
+          <p className="absolute bottom-2 right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[400%] text-aaooBlack md:text-[700%]">
             applynow
           </p>
 
           <Link
             to="/services"
-            className="absolute left-4 top-4 rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
+            className="absolute left-6 top-6 inline-block rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
           >
             Get Started
           </Link>

@@ -9,8 +9,10 @@ export default function AboutCards() {
     <div className="space-y-10">
       <div className="flex justify-between font-medium">
         <div className="space-y-8">
-          <h1 className="text-5xl font-semibold uppercase">why choose us?</h1>
-          <p className="text-xl text-aaooGray">
+          <h1 className="text-2xl font-semibold uppercase md:text-5xl">
+            why choose us?
+          </h1>
+          <p className="text-base text-aaooGray md:text-xl">
             We are committed to providing accurate reliable and professional
             services.
           </p>
@@ -30,7 +32,7 @@ export default function AboutCards() {
         <AboutCard
           icon={<FaUserCheck />}
           title="Expertise"
-          description="knowledge and years of experience to every project we undertake."
+          description="As registered Estate Surveyors and Valuers, we bring extensive knowledge and years of experience to every project we undertake."
         />
 
         <AboutCard

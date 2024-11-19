@@ -4,7 +4,7 @@ import Footer from "../ui/Footer";
 
 export default function AppLayout() {
   return (
-    <div className="flex flex-col items-center px-0 font-Montserrat">
+    <div className="flex flex-col items-center font-Montserrat">
       <header className="fixed z-[999] flex w-full bg-aaooBgGray/30 py-2 shadow-sm backdrop-blur-lg md:w-full md:justify-center">
         <NavBar />
       </header>
