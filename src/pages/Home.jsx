@@ -125,7 +125,7 @@ export default function Home() {
         </div>
 
         <div aria-label="services render">
-          <div className="space-y-2 divide-y-2 divide-aaooBlack">
+          <div className="space-y-2 divide-y-2 divide-aaooBlack md:space-y-12">
             <ServiceCard
               title="Property Management"
               description="We offer comprehensive property management services that ensure your property is well-maintained, maximized for profitability, and compliant with all legal."
