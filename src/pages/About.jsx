@@ -20,8 +20,8 @@ export default function About() {
             <h1 className="text-lg font-bold text-aaooBgGray md:text-6xl">
               About Us
             </h1>
-            <p className="text-aaooBgGray">
-              we are dedicated to helping you find your dream home with ease.
+            <p className="w-[90%] text-aaooBgGray sm:w-full">
+              We are dedicated to helping you find your dream home with ease.
             </p>
           </div>
         </div>

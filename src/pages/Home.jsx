@@ -212,7 +212,7 @@ export default function Home() {
               alt="Apply now Image with Get Started Button"
               className="h-full w-full rounded-3xl border object-cover shadow-md"
             />
-            <p className="absolute bottom-[-5px] right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[250%] text-aaooBlack md:text-[650%]">
+            <p className="absolute bottom-[-5px] right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[250%] text-black md:text-[650%]">
               applynow
             </p>
 

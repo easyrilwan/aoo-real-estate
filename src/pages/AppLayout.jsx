@@ -9,11 +9,11 @@ export default function AppLayout() {
         <NavBar />
       </header>
 
-      <main className="mt-[83px] flex items-center justify-between sm:w-full md:w-[90%]">
+      <main className="mt-[83px] flex w-full items-center justify-between md:w-[90%]">
         <Outlet />
       </main>
 
-      <footer className="z-[1] flex w-full justify-center bg-aaooBlack">
+      <footer className="z-[1] flex w-full items-center justify-between bg-aaooBlack py-10">
         <Footer />
       </footer>
     </div>

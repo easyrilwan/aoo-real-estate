@@ -19,7 +19,7 @@ export default function Services() {
             <h1 className="text-base font-bold text-aaooBgGray md:text-6xl">
               Our Services
             </h1>
-            <p className="text-xs text-aaooBgGray md:text-base">
+            <p className="w-[90%] text-xs text-aaooBgGray sm:w-full md:text-base">
               We provide various services ranging from property management, Real
               Estate Consultancy, Property Valuation, Real Estate Agency.
             </p>
