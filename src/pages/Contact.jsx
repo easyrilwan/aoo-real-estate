@@ -15,9 +15,9 @@ export default function Contact() {
           <img
             src={HeroContact}
             alt="About Page Image"
-            className="w-full object-cover"
+            className="h-full w-full object-cover brightness-50"
           />
-          <div className="absolute bottom-[20%] left-[10%] bg-black/5">
+          <div className="absolute bottom-[20%] left-[10%]">
             <h1 className="text-base font-bold text-aaooBgGray md:text-6xl">
               Our Services
             </h1>

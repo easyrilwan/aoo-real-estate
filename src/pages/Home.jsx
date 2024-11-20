@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <section>
-      <div className="grid grid-cols-1 gap-3 gap-y-10 px-3 py-4 capitalize md:grid-cols-2 md:px-0 md:pb-36 md:pt-16">
+      <div className="grid grid-cols-1 gap-3 gap-y-10 px-3 py-4 capitalize md:grid-cols-2 md:px-0 md:py-16">
         <div className="space-y-6 self-center text-aaooBlack">
           <h1 className="text-[2rem] font-semibold md:text-6xl">
             making your <span className="text-aaooRed">home</span> ownership
@@ -39,12 +39,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid place-items-center gap-8 px-3 py-4 capitalize md:px-0 md:pb-36 md:pt-16">
+      <div className="grid place-items-center gap-8 px-3 py-4 capitalize md:px-0 md:py-16">
         <h2 className="w-full text-center text-2xl font-semibold md:w-[70%] md:text-5xl">
           your trusted real estate expert&mdash; turning dreams into reality
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-          <div className="overflow-hidden rounded-3xl">
+          <div className="overflow-hidden rounded-3xl shadow-md">
             <img
               src={Image_1}
               alt="Image 1"

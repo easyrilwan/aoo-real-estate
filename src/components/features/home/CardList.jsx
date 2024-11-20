@@ -6,7 +6,7 @@ export default function CardList({ icon: Icon, title, description }) {
       </span>
 
       <div>
-        <h4 className="text-sm font-semibold group-hover:text-aaooWhite md:text-[1.63rem]">
+        <h4 className="text-sm font-semibold leading-6 group-hover:text-aaooWhite md:text-[1.63rem]">
           {title}
         </h4>
 

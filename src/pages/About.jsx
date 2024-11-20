@@ -6,7 +6,7 @@ import ServiceCard from "../components/features/home/ServiceCard";
 export default function About() {
   return (
     <section className="mb-8 px-3">
-      <div className="space-y-20 text-aaooBlack">
+      <div className="space-y-10 text-aaooBlack">
         <div
           aria-label="About Hero"
           className="relative max-h-[500px] w-full overflow-hidden rounded-3xl"
@@ -14,7 +14,7 @@ export default function About() {
           <img
             src={Hero}
             alt="About Page Image"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover brightness-50"
           />
           <div className="absolute bottom-[20%] left-[10%] text-aaooWhite">
             <h1 className="text-lg font-bold text-aaooBgGray md:text-6xl">
