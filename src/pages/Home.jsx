@@ -205,22 +205,34 @@ export default function Home() {
       </div>
 
       <div className="">
-        <div className="relative mb-16 h-full w-full overflow-hidden rounded-3xl p-2 px-3">
-          <img
-            src={Image_1}
-            alt="Apply now Image with Get Started Button"
-            className="h-full w-full rounded-3xl border object-cover shadow-md"
-          />
-          <p className="absolute bottom-2 right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[400%] text-aaooBlack md:text-[700%]">
-            applynow
-          </p>
+        <div className="mb-16 h-full w-full overflow-hidden rounded-3xl p-2 px-3 md:px-0">
+          <div className="relative h-full w-full overflow-hidden">
+            <img
+              src={Image_1}
+              alt="Apply now Image with Get Started Button"
+              className="h-full w-full rounded-3xl border object-cover shadow-md"
+            />
+            <p className="absolute bottom-[-5px] right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[250%] text-aaooBlack md:text-[650%]">
+              applynow
+            </p>
 
-          <Link
+            <Link
+              to="/services"
+              className="absolute left-6 top-6 inline-block rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
+            >
+              Get Started
+            </Link>
+          </div>
+          {/* <p className="absolute bottom-2 right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[400%] text-aaooBlack md:text-[700%]">
+            applynow
+          </p> */}
+
+          {/* <Link
             to="/services"
             className="absolute left-6 top-6 inline-block rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
           >
             Get Started
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
