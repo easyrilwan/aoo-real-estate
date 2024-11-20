@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-lime-100 px-3 pb-36 pt-4 md:px-0">
+      <div className="space-y-10 bg-slate-200 px-3 py-16 md:px-0">
         <div className="space-y-2">
           <h1 className="text-[13px] font-semibold uppercase md:text-6xl">
             featured properties
@@ -117,7 +117,7 @@ export default function Home() {
         </marquee>
       </div>
 
-      <div className="px-3 md:space-y-6 md:px-0">
+      <div className="mt-10 px-3 md:space-y-6 md:px-0">
         <div>
           <h1 className="text-xl font-semibold uppercase md:text-5xl">
             services
