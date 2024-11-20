@@ -1,7 +1,9 @@
 export default function ContactForm() {
   return (
     <form className="flex h-full w-full flex-col items-center gap-8 rounded-2xl bg-aaooBlack px-6 py-10 text-aaooWhite caret-aaooBlack">
-      <h1 className="text-center text-4xl font-semibold">Send a Message</h1>
+      <h1 className="text-center text-2xl font-semibold sm:text-4xl">
+        Send a Message
+      </h1>
 
       <div className="w-full space-y-8 text-xl font-normal">
         <div className="w-full space-y-2">
