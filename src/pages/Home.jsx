@@ -189,18 +189,18 @@ export default function Home() {
             />
           </div>
 
-          <div className="my-16 h-full space-y-4">
+          <div className="my-16 h-full w-full space-y-4">
             <div className="space-y-6">
               <h1 className="text-base text-aaooGray sm:text-2xl">
                 Testimonial
               </h1>
 
-              <div className="flex items-center md:justify-between">
-                <h2 className="w-[60%] font-Montserrat text-[22px] font-semibold capitalize sm:w-[40%] sm:text-2xl md:text-5xl">
+              <div className="flex flex-col sm:items-center md:justify-between">
+                <h2 className="text-left font-Montserrat text-[22px] font-semibold capitalize sm:text-2xl md:text-5xl">
                   what our clients say
                 </h2>
 
-                <p className="text-xs capitalize text-aaooGray sm:text-center sm:text-2xl md:w-[50%]">
+                <p className="text-xs capitalize text-aaooGray sm:text-center sm:text-2xl md:w-[100%]">
                   We take pride in delivering accurate insights and exceptional
                   customer experiences for every project.
                 </p>
