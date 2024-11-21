@@ -10,13 +10,13 @@ export default function ServiceListAll() {
   return (
     <div className="mb-10 space-y-20">
       {/* 1 */}
-      <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-4 md:grid-cols-2">
+      <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-4 gap-y-8 md:grid-cols-2">
         {/* Text Section */}
         <div className="flex h-full w-full flex-col justify-center space-y-6">
           <h1 className="border-b-2 text-[4rem] font-bold text-[#D9D9D9] md:text-9xl">
             01.
           </h1>
-          <div className="space-y-4">
+          <div className="space-y-6">
             <div className="space-y-6">
               <h2 className="text-2xl font-semibold md:text-5xl">
                 Property Management
@@ -28,7 +28,7 @@ export default function ServiceListAll() {
                 property management services include:
               </p>
             </div>
-            <div className="space-y-4 text-sm md:text-2xl">
+            <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
                 <IoCheckmarkCircle />
                 <p>Lease administration and tenant relations</p>
@@ -62,7 +62,7 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="hidden h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
           <img
             src={ImageOne}
             alt="Image One List"
@@ -78,7 +78,7 @@ export default function ServiceListAll() {
           <h1 className="border-b-2 text-[4rem] font-bold text-[#D9D9D9] md:text-9xl">
             02.
           </h1>
-          <div className="space-y-4">
+          <div className="space-y-6">
             <div className="space-y-6">
               <h2 className="text-2xl font-semibold md:text-5xl">
                 Property Valuation
@@ -89,7 +89,7 @@ export default function ServiceListAll() {
                 worth of their assets. Our valuation services cover:
               </p>
             </div>
-            <div className="space-y-4 text-sm md:text-2xl">
+            <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
                 <IoCheckmarkCircle />
                 <p>Residential and commercial properties</p>
@@ -122,7 +122,7 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="hidden h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
           <img
             src={ImageTwo}
             alt="Image One List"
@@ -132,13 +132,13 @@ export default function ServiceListAll() {
       </div>
 
       {/* 3 */}
-      <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-4 md:grid-cols-2">
+      <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-4 gap-y-8 md:grid-cols-2">
         {/* Text Section */}
-        <div className="flex h-full w-full flex-col justify-center space-y-6">
+        <div className="order-last flex h-full w-full flex-col justify-center space-y-6 md:order-first">
           <h1 className="border-b-2 text-[4rem] font-bold text-[#D9D9D9] md:text-9xl">
             03.
           </h1>
-          <div className="space-y-4">
+          <div className="space-y-6">
             <div className="space-y-6">
               <h2 className="text-2xl font-semibold md:text-5xl">
                 Real Estate Consultancy
@@ -149,7 +149,7 @@ export default function ServiceListAll() {
                 We specialize in:
               </p>
             </div>
-            <div className="space-y-4 text-sm md:text-2xl">
+            <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
                 <IoCheckmarkCircle />
                 <p>Market research and feasibility studies</p>
@@ -179,7 +179,7 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="hidden h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
           <img
             src={ImageThree}
             alt="Image One List"
@@ -195,7 +195,7 @@ export default function ServiceListAll() {
           <h1 className="border-b-2 text-[4rem] font-bold text-[#D9D9D9] md:text-9xl">
             04.
           </h1>
-          <div className="space-y-4">
+          <div className="space-y-6">
             <div className="space-y-6">
               <h2 className="text-2xl font-semibold md:text-5xl">
                 Real Estate Agency
@@ -205,7 +205,7 @@ export default function ServiceListAll() {
                 leasing of properties. Our real estate agency services include:
               </p>
             </div>
-            <div className="space-y-4 text-sm md:text-2xl">
+            <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
                 <IoCheckmarkCircle />
                 <p>Property sales and acquisitions</p>
@@ -235,7 +235,7 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="hidden h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
           <img
             src={ImageFour}
             alt="Image Four List"

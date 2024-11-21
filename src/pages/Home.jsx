@@ -5,11 +5,16 @@ import CardList from "../components/features/home/CardList";
 import ServiceCard from "../components/features/home/ServiceCard";
 import Faq from "../components/features/home/Faq";
 
-import Home_1 from "../assets/images/home/home-1.jpeg";
 import Image_1 from "../assets/images/home/image-1.jpeg";
+import OfferImage from "../assets/images/home/offer-image.jpg";
+import Home_5 from "../assets/images/home/home-5.jpg";
 import Testimonial from "../components/features/home/Testimonial";
 import ImageGrid from "../components/features/home/ImageGrid";
 import { Link } from "react-router-dom";
+
+import FeaturedCard from "../components/features/home/FeaturedCard";
+import FeaturedImage1 from "../assets/images/home/image-2.jpeg";
+import FeaturedImage2 from "../assets/images/home/image-3.png";
 
 export default function Home() {
   return (
@@ -44,13 +49,6 @@ export default function Home() {
           your trusted real estate expert&mdash; turning dreams into reality
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-          <div className="overflow-hidden rounded-3xl shadow-md">
-            <img
-              src={Image_1}
-              alt="Image 1"
-              className="h-full w-full border object-cover shadow-md"
-            />
-          </div>
           <div className="flex flex-col justify-between gap-4">
             <CardList
               icon={CiHome}
@@ -73,55 +71,102 @@ export default function Home() {
               description="Deep understanding of local real estate trends, pricing, and neighborhoods."
             />
           </div>
+
+          <div className="order-first overflow-hidden rounded-3xl shadow-md md:order-last">
+            <img
+              src={Image_1}
+              alt="Image 1"
+              className="h-full w-full border object-cover shadow-md"
+            />
+          </div>
         </div>
       </div>
 
-      <div className="space-y-10 bg-slate-200 px-3 py-16 md:px-0">
-        <div className="space-y-2">
-          <h1 className="text-[13px] font-semibold uppercase md:text-6xl">
+      <div className="grid place-items-center gap-8 px-3 py-4 capitalize md:px-0 md:py-6">
+        <div className="grid grid-cols-2 items-center gap-x-2 sm:gap-x-6">
+          <div className="h-full w-full overflow-hidden rounded-3xl shadow-md">
+            <img
+              src={Home_5}
+              alt="Image 1"
+              className="h-full w-full border object-cover shadow-md"
+            />
+          </div>
+
+          <div className="flex flex-col justify-between gap-10">
+            <div className="space-y-4">
+              <h1 className="space-x-2 text-[9px] font-semibold sm:text-[32px]">
+                At A. OLUWAFEMI OKEBUKUNOLA & CO
+                <span className="pl-1 font-normal lowercase">
+                  we pride ourselves on delivering exceptional estate surveying
+                  and valuation services tailored to our clients unique needs.
+                </span>
+              </h1>
+
+              <Link
+                to=""
+                className="inline-flex items-center gap-4 rounded-md border-2 border-aaooBlack bg-aaooBlack p-[3px] text-[8px] text-aaooWhite transition-all hover:border-2 hover:border-aaooBlack hover:bg-transparent hover:text-aaooBlack sm:rounded-xl sm:border-4 sm:p-2 sm:text-xl sm:hover:border-4"
+              >
+                Read More
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        aria-label="Featured Properties"
+        className="space-y-4 px-3 py-6 capitalize sm:py-14 md:px-0"
+      >
+        <div className="flex w-full flex-col items-center space-y-2 text-center md:space-y-5">
+          <h1 className="text-2xl font-semibold md:text-5xl">
             featured properties
           </h1>
-          <p className="text-[8px] text-aaooGray md:text-xl">
+
+          <p className="w-full text-xs text-aaooGray md:w-[62%] md:text-2xl">
             A curated collection of the best homes on the market, featuring
             unique designs and prime locations
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-6">
-          <div className="relative">
-            <img src={Home_1} alt="" />
-            <div className="absolute bottom-0 left-0 h-[30%] w-full bg-slate-500 text-white">
-              <h1>N/A</h1>
-              <h1>N/A</h1>
-            </div>
-          </div>
-          <div className="relative">
-            <img src={Home_1} alt="" />
-            <div className="absolute bottom-0 left-0 h-[30%] w-full bg-slate-500 text-white">
-              <h1>N/A</h1>
-              <h1>N/A</h1>
-            </div>
-          </div>
-          <div className="relative">
-            <img src={Home_1} alt="" />
-            <div className="absolute bottom-0 left-0 h-[30%] w-full bg-slate-500 text-white">
-              <h1>N/A</h1>
-              <h1>N/A</h1>
-            </div>
-          </div>
+
+        <div
+          aria-label="Featured Card"
+          className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <FeaturedCard
+            image={FeaturedImage1}
+            hectares=": 5Hectares"
+            location=":Along Mopol/ShopRite road, Sangotedo, Lagos"
+            description={
+              <p className="text-base text-[#F12B2B]">
+                1 BILLION
+                <sub className="text-[9px] lowercase text-white">/per hct</sub>
+              </p>
+            }
+          />
+
+          <FeaturedCard image={FeaturedImage2} />
+          <FeaturedCard image={FeaturedImage2} />
+          <FeaturedCard image={FeaturedImage2} />
+          <FeaturedCard image={FeaturedImage2} />
+          <FeaturedCard image={FeaturedImage2} />
         </div>
       </div>
 
-      <div className="w-full font-Monoton text-5xl font-normal uppercase md:text-[6.25rem]">
+      <div className="w-full py-6 font-Monoton text-5xl font-normal uppercase md:text-[6.25rem]">
         <marquee behavior="scroll" direction="left" scrollamount="30">
           real estate - housing - survey - property valuation
         </marquee>
       </div>
 
-      <div className="mt-10 px-3 md:space-y-6 md:px-0">
-        <div>
-          <h1 className="text-xl font-semibold uppercase md:text-5xl">
-            services
+      <div className="w-full px-3 md:space-y-6 md:px-0">
+        <div className="flex flex-col items-center gap-2 text-center capitalize">
+          <h1 className="text-[22px] font-semibold md:text-5xl">
+            our services
           </h1>
+          <p className="text-xs text-aaooGray sm:w-[75%] sm:text-2xl">
+            We offer various services as AOO ranging from Property management,
+            Property valuation, Real estate consultancy and Real estate agency.
+          </p>
         </div>
 
         <div aria-label="services render">
@@ -144,12 +189,25 @@ export default function Home() {
             />
           </div>
 
-          <div className="mt-10 h-full space-y-4">
-            <h1 className="font-Montserrat text-2xl font-semibold capitalize md:text-5xl">
-              what everyone says
-            </h1>
+          <div className="my-16 h-full space-y-4">
+            <div className="space-y-6">
+              <h1 className="text-base text-aaooGray sm:text-2xl">
+                Testimonial
+              </h1>
 
-            <div className="grid h-full w-full grid-cols-1 items-center gap-x-4 md:grid-cols-2 lg:grid-cols-3">
+              <div className="flex items-center md:justify-between">
+                <h2 className="w-[60%] font-Montserrat text-[22px] font-semibold capitalize sm:w-[40%] sm:text-2xl md:text-5xl">
+                  what our clients say
+                </h2>
+
+                <p className="text-xs capitalize text-aaooGray sm:text-center sm:text-2xl md:w-[50%]">
+                  We take pride in delivering accurate insights and exceptional
+                  customer experiences for every project.
+                </p>
+              </div>
+            </div>
+
+            <div className="grid h-full w-full grid-cols-1 items-center gap-4 md:grid-cols-2 lg:grid-cols-3">
               <Testimonial
                 description={`“Working with AAO made buying my first home such an easy and stress-free experience! They walked me through every step, explaining all the details and options, so I felt informed and comfortable with each decision.”`}
                 name={"Philip Donin"}
@@ -174,7 +232,7 @@ export default function Home() {
               />
 
               <Testimonial
-                description={`“Working with AAO made buying my first home such an easy and stress-free experience! They walked me through every step, explaining all the details and options, so I felt informed and comfortable with each decision.”`}
+                description={`“l was nervous about selling my home, but AAO made the entire process seamless. They offered expert advice on staging and pricing, and within two weeks, I had multiple offers above the asking price.”`}
                 name={"Jhone"}
                 avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
               />
@@ -204,35 +262,37 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="">
-        <div className="mb-16 h-full w-full overflow-hidden rounded-3xl p-2 px-3 md:px-0">
-          <div className="relative h-full w-full overflow-hidden">
-            <img
-              src={Image_1}
-              alt="Apply now Image with Get Started Button"
-              className="h-full w-full rounded-3xl border object-cover shadow-md"
-            />
-            <p className="absolute bottom-[-5px] right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[250%] text-black md:text-[650%]">
-              applynow
-            </p>
+      <div className="my-6 -mt-10 h-full w-full overflow-hidden rounded-3xl p-2 px-3 md:my-16 md:px-0">
+        <div className="relative w-full overflow-hidden sm:h-[650px]">
+          <img
+            src={OfferImage}
+            alt="Apply now Image with Get Started Button"
+            className="w-full rounded-3xl border object-cover shadow-md sm:h-full"
+          />
+
+          <div className="absolute right-0 top-4 flex w-full flex-col items-center gap-2 text-center text-aaooWhite sm:gap-10 md:top-20 lg:top-28">
+            <div className="flex items-center gap-4">
+              <img
+                src="/logo.svg"
+                alt="AAOO Real Estate Logo"
+                className="aspect-auto h-[20px] rounded bg-aaooWhite sm:block sm:h-[46px] sm:rounded-xl"
+              />
+              <p className="text-[10px] font-semibold text-aaooWhite sm:text-xl">
+                A. OLUWAFEMI OKEBUKUNOLA & CO
+              </p>
+            </div>
+
+            <h1 className="w-[85%] text-lg font-bold capitalize leading-[1.2] sm:w-[80%] sm:text-[4rem]">
+              We Offer the best services to our clients and Get started with us.
+            </h1>
 
             <Link
-              to="/services"
-              className="absolute left-6 top-6 inline-block rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
+              to="/contact"
+              className="block w-fit rounded bg-aaooBlack p-2 text-[10px] sm:rounded-2xl sm:px-6 sm:py-4 sm:text-xl"
             >
-              Get Started
+              Contact Us
             </Link>
           </div>
-          {/* <p className="absolute bottom-2 right-1/2 z-[1] w-full translate-x-1/2 text-center font-Monoton text-5xl text-[400%] text-aaooBlack md:text-[700%]">
-            applynow
-          </p> */}
-
-          {/* <Link
-            to="/services"
-            className="absolute left-6 top-6 inline-block rounded-xl border-4 border-aaooBlack bg-aaooBlack px-3 py-2 text-white duration-500 hover:bg-transparent hover:text-aaooBlack"
-          >
-            Get Started
-          </Link> */}
         </div>
       </div>
     </section>
