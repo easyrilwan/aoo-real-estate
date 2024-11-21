@@ -62,11 +62,11 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="order-first h-full w-full items-center justify-center overflow-hidden rounded-3xl md:order-last md:flex">
           <img
             src={ImageOne}
             alt="Image One List"
-            className="h-full w-full object-cover"
+            className="h-[470px] w-full object-cover md:h-full"
           />
         </div>
       </div>
@@ -74,7 +74,7 @@ export default function ServiceListAll() {
       {/* 2 */}
       <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-4 md:grid-cols-2">
         {/* Text Section */}
-        <div className="order-2 flex h-full w-full flex-col justify-center space-y-6">
+        <div className="flex h-full w-full flex-col justify-center space-y-6">
           <h1 className="border-b-2 text-[4rem] font-bold text-[#D9D9D9] md:text-9xl">
             02.
           </h1>
@@ -122,7 +122,7 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="order-first h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
           <img
             src={ImageTwo}
             alt="Image One List"
@@ -191,7 +191,7 @@ export default function ServiceListAll() {
       {/* 4 */}
       <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-4 md:grid-cols-2">
         {/* Text Section */}
-        <div className="order-2 flex h-full w-full flex-col justify-center space-y-6">
+        <div className="flex h-full w-full flex-col justify-center space-y-6">
           <h1 className="border-b-2 text-[4rem] font-bold text-[#D9D9D9] md:text-9xl">
             04.
           </h1>
@@ -235,7 +235,7 @@ export default function ServiceListAll() {
         </div>
 
         {/* Image Section */}
-        <div className="h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
+        <div className="order-first h-full w-full items-center justify-center overflow-hidden rounded-3xl md:flex">
           <img
             src={ImageFour}
             alt="Image Four List"
