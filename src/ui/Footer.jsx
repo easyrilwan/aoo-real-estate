@@ -50,7 +50,7 @@ export default function Footer() {
             <div className="font-medium text-aaooWhite">
               <ul className="space-y-3">
                 <li>+2347067509767, +2348114987120</li>
-                <li>Aao.realto@gmail.com</li>
+                <li>aoo.realtors@gmail.com</li>
                 <li>
                   Block 15, LKJ Gardens Estate, Nysc Bus Stop, Igando, Lagos
                 </li>
@@ -99,7 +99,7 @@ export default function Footer() {
               <RiInstagramFill size={20} />
             </a>
             <a
-              href="http://"
+              href="https://wa.me/+2347067509767"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer text-[0.8rem] text-white"
@@ -108,7 +108,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="flex gap-6 font-light capitalize text-aaooWhite">
+          <div className="flex items-center gap-6 font-light capitalize text-aaooWhite">
             <p className="flex items-center gap-2">
               Copyright{" "}
               <span className="inline-flex text-2xl font-medium">&copy;</span>{" "}
@@ -119,38 +119,40 @@ export default function Footer() {
         </div>
 
         {/* SHOW ON SMALLEST SCREEN */}
-        <div className="flex w-[90%] justify-between text-[10px] font-normal sm:hidden">
-          <div className="flex w-full items-center">
-            <img
-              src="/logo.svg"
-              alt="AAOO Real Estate Logo"
-              className="hidden aspect-auto h-[46px] rounded-xl bg-aaooWhite sm:block"
-            />
-            <p className="text-aaooWhite">A. OLUWAFEMI OKEBUKUNOLA & CO</p>
-          </div>
+        <div className="flex w-full flex-col items-center text-[8px] font-normal sm:hidden">
+          <div className="item flex w-[90%] justify-between gap-2">
+            <div className="flex w-full items-center gap-1">
+              <img
+                src="/logo.svg"
+                alt="AAOO Real Estate Logo"
+                className="block h-6 rounded bg-aaooWhite"
+              />
+              <p className="text-aaooWhite">A. OLUWAFEMI OKEBUKUNOLA & CO</p>
+            </div>
 
-          <div className="hidden gap-3">
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer text-[0.8rem] text-white"
-            >
-              <RiInstagramFill size={20} />
-            </a>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer text-[0.8rem] text-white"
-            >
-              <FaWhatsapp size={20} />
-            </a>
-          </div>
+            <div className="flex w-[50%] justify-center gap-3">
+              <a
+                // href=""
+                // target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer text-[0.8rem] text-white"
+              >
+                <RiInstagramFill size={20} />
+              </a>
+              <a
+                href="https://wa.me/+2347067509767"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer text-[0.8rem] text-white"
+              >
+                <FaWhatsapp size={20} />
+              </a>
+            </div>
 
-          <div className="flex flex-wrap font-light capitalize text-aaooWhite">
-            <p>Copyright&copy;2024</p>
-            <p>All right Reserved</p>
+            <div className="flex w-52 flex-col text-right font-light capitalize text-aaooWhite">
+              <p className="pr-1">Copyright&copy;2024</p>
+              <p>All right Reserved</p>
+            </div>
           </div>
         </div>
       </div>

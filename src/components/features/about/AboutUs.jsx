@@ -3,13 +3,15 @@ import FounderImage from "../../../assets/images/about/image-8.png";
 export default function AboutUs() {
   return (
     <div className="grid h-full w-full grid-cols-1 place-items-center gap-x-3 gap-y-4 md:grid-cols-2">
-      <div className="flex flex-col gap-8 font-semibold md:text-3xl">
-        <h2 className="text-sm uppercase">about us</h2>
-        <h3 className="text-2xl md:text-5xl">
-          Your Trusted Partner in Finding Homes & Properties
-        </h3>
+      <div className="flex flex-col gap-4 font-semibold md:text-3xl">
+        <div className="space-y-2 sm:space-y-4">
+          <h2 className="text-sm uppercase">about us</h2>
+          <h3 className="text-2xl md:text-5xl">
+            Your Trusted Partner in Finding Homes & Properties
+          </h3>
+        </div>
 
-        <div className="flex h-full w-full flex-col gap-10 text-sm font-normal text-aaooGray md:text-xl">
+        <div className="flex h-full w-full flex-col gap-4 text-sm font-normal text-aaooGray sm:gap-10 md:text-xl">
           <p>
             At A. OLUWAFEMI OKEBUKUNOLA & CO we pride ourselves on delivering
             exceptional estate surveying and valuation services tailored to our

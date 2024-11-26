@@ -7,7 +7,7 @@ import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
 export default function Contact() {
   return (
     <section className="px-3 py-4 md:px-0">
-      <div className="mb-20 space-y-20">
+      <div className="mb-20 space-y-8 sm:space-y-20">
         <div
           aria-label="About Hero"
           className="relative max-h-[500px] w-full overflow-hidden rounded-3xl shadow-md"
@@ -19,17 +19,17 @@ export default function Contact() {
           />
           <div className="absolute bottom-[20%] left-[10%]">
             <h1 className="text-base font-bold text-aaooBgGray md:text-6xl">
-              Our Services
+              Contact Us
             </h1>
             <p className="w-[90%] text-xs text-aaooBgGray sm:w-full md:text-base">
-              We provide various services ranging from property management, Real
-              Estate Consultancy, Property Valuation, Real Estate Agency.
+              Contact Us to get that properties and also acquire that house that
+              suits your needs.
             </p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-          <div className="space-y-4 md:space-y-8">
+          <div className="md:space-y-4">
             <h2 className="text-2xl font-semibold md:text-5xl">Get In Touch</h2>
             <p className="text-sm font-medium text-aaooGray md:text-xl">
               Our team of real estate experts is ready to assist with all your

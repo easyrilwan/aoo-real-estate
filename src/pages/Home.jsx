@@ -16,6 +16,13 @@ import FeaturedCard from "../components/features/home/FeaturedCard";
 import FeaturedImage1 from "../assets/images/home/image-2.jpeg";
 import FeaturedImage2 from "../assets/images/home/image-3.png";
 
+import avatar1 from "../assets/images/avatars/avatar1.jpg";
+import avatar2 from "../assets/images/avatars/avatar2.jpg";
+import avatar3 from "../assets/images/avatars/avatar3.jpg";
+import avatar4 from "../assets/images/avatars/avatar4.jpg";
+import avatar5 from "../assets/images/avatars/avatar5.jpg";
+import avatar6 from "../assets/images/avatars/avatar6.jpg";
+
 export default function Home() {
   return (
     <section>
@@ -97,7 +104,7 @@ export default function Home() {
               <h1 className="space-x-2 text-lg font-semibold md:text-[32px] md:leading-10">
                 <span className="text-aaooGray">At</span> A. OLUWAFEMI
                 OKEBUKUNOLA & CO
-                <span className="font-normal lowercase md:pl-1">
+                <span className="font-normal lowercase text-aaooGray md:pl-1">
                   we pride ourselves on delivering exceptional estate surveying
                   and valuation services tailored to our clients unique needs.
                 </span>
@@ -118,7 +125,7 @@ export default function Home() {
         aria-label="Featured Properties"
         className="space-y-4 px-3 py-6 capitalize sm:py-14 md:px-0"
       >
-        <div className="flex w-full flex-col items-center space-y-2 text-center md:space-y-4">
+        <div className="flex w-full flex-col items-center text-center sm:space-y-4">
           <h1 className="text-2xl font-semibold md:text-5xl">
             featured properties
           </h1>
@@ -160,7 +167,7 @@ export default function Home() {
       </div>
 
       <div className="w-full space-y-4 px-3 md:space-y-6 md:px-0">
-        <div className="flex flex-col items-center gap-2 text-center capitalize">
+        <div className="flex flex-col items-center text-center capitalize sm:gap-2">
           <h1 className="text-[22px] font-semibold md:text-5xl">
             our services
           </h1>
@@ -214,36 +221,37 @@ export default function Home() {
               <Testimonial
                 description={`“Working with AAO made buying my first home such an easy and stress-free experience! They walked me through every step, explaining all the details and options, so I felt informed and comfortable with each decision.”`}
                 name="Philip Donin"
+                avatar={avatar1}
               />
 
               <Testimonial
                 description="“Our family needed to relocate quickly for work, and AAO truly went above and beyond to help us find a home that met our needs in a very tight time frame. The team was incredibly responsive, and understanding.”"
                 name="Aspen Levin"
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5077.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                avatar={avatar2}
               />
 
               <Testimonial
                 description={`“As an investor, I’m always looking for agents who understand the market and can find properties that meet my criteria.  AAO exceeded my expectations with their deep market insights and knowledge of the area.”`}
                 name="Maria Geidt"
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5018.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                avatar={avatar3}
               />
 
               <Testimonial
                 description="“Working with AOO was an absolute pleasure. Their deep understanding of property valuation and boundary disputes gave me the confidence I needed during a stressful time.”"
                 name="James Williams"
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-4001.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                avatar={avatar4}
               />
 
               <Testimonial
                 description="“We engaged AOO to assist with a commercial property development project, and their expertise was instrumental to its success. Their precise surveying, thorough reports, and clear communication helped us.”"
                 name="Sarah Johnson"
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5009.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                avatar={avatar5}
               />
 
               <Testimonial
                 description="“I can't thank AOO enough for their work during my property purchase. Their meticulous attention to detail uncovered potential issues I would have overlooked, saving me time and money in the long run.” "
                 name="Micheal Adams"
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-53007.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                avatar={avatar6}
               />
             </div>
           </div>
@@ -252,7 +260,7 @@ export default function Home() {
             aria-label="Frequently Asked Question"
             className="my-16 space-y-6"
           >
-            <div className="space-y-4 text-center">
+            <div className="text-center sm:space-y-4">
               <h1 className="text-lg font-semibold uppercase md:text-5xl">
                 FREQUENTLY ASKED QUESTIONS
               </h1>

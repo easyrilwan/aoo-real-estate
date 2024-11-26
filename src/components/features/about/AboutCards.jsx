@@ -8,7 +8,7 @@ export default function AboutCards() {
   return (
     <div className="space-y-10">
       <div className="flex justify-between font-medium">
-        <div className="space-y-8">
+        <div className="space-y-2 sm:space-y-8">
           <h1 className="text-2xl font-semibold uppercase md:text-5xl">
             why choose us?
           </h1>
