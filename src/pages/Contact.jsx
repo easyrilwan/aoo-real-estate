@@ -135,7 +135,7 @@ export default function Contact() {
                 <div className="space-y-2">
                   <h6 className="text-xl font-semibold md:text-3xl">E-Mail:</h6>
                   <p className="text-xs font-medium text-aaooGray md:text-xl">
-                    aao.realtor@gmail.com
+                    aoo.realtors@gmail.com
                   </p>
                 </div>
               </div>
