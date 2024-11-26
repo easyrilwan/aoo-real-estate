@@ -190,7 +190,7 @@ export default function Home() {
           </div>
 
           <div className="my-16 h-full w-full space-y-4">
-            <div className="space-y-6">
+            <div className="space-y-2">
               <h1 className="text-base text-aaooGray sm:text-2xl">
                 Testimonial
               </h1>
@@ -210,37 +210,37 @@ export default function Home() {
             <div className="grid h-full w-full grid-cols-1 items-center gap-4 md:grid-cols-2 lg:grid-cols-3">
               <Testimonial
                 description={`“Working with AAO made buying my first home such an easy and stress-free experience! They walked me through every step, explaining all the details and options, so I felt informed and comfortable with each decision.”`}
-                name={"Philip Donin"}
+                name="Philip Donin"
               />
 
               <Testimonial
-                description={`“Our family needed to relocate quickly for work, and AAO truly went above and beyond to help us find a home that met our needs in a very tight time frame. The team was incredibly responsive, and understanding.”`}
-                name={"Aspen Levin"}
+                description="“Our family needed to relocate quickly for work, and AAO truly went above and beyond to help us find a home that met our needs in a very tight time frame. The team was incredibly responsive, and understanding.”"
+                name="Aspen Levin"
                 avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5077.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
               />
 
               <Testimonial
                 description={`“As an investor, I’m always looking for agents who understand the market and can find properties that meet my criteria.  AAO exceeded my expectations with their deep market insights and knowledge of the area.”`}
-                name={"Maria Geidt"}
+                name="Maria Geidt"
                 avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5018.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
               />
 
               <Testimonial
-                description={`"l was nervous about selling my home, but AAO made the entire process seamless. They offered expert advice on staging and pricing, and within two weeks, I had multiple offers above the asking price."`}
-                name={"Richard Williams"}
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5679.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                description="“Working with AOO was an absolute pleasure. Their deep understanding of property valuation and boundary disputes gave me the confidence I needed during a stressful time.”"
+                name="James Williams"
+                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-4001.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
               />
 
               <Testimonial
-                description={`“l was nervous about selling my home, but AAO made the entire process seamless. They offered expert advice on staging and pricing, and within two weeks, I had multiple offers above the asking price.”`}
-                name={"Jhone"}
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                description="“We engaged AOO to assist with a commercial property development project, and their expertise was instrumental to its success. Their precise surveying, thorough reports, and clear communication helped us.”"
+                name="Sarah Johnson"
+                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5009.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
               />
 
               <Testimonial
-                description={`“Working with AAO made buying my first home such an easy and stress-free experience! They walked me through every step, explaining all the details and options, so I felt informed and comfortable with each decision.”`}
-                name={"Jhone"}
-                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
+                description="“I can't thank AOO enough for their work during my property purchase. Their meticulous attention to detail uncovered potential issues I would have overlooked, saving me time and money in the long run.” "
+                name="Micheal Adams"
+                avatar="https://img.freepik.com/free-photo/young-bearded-lady-with-striped-shirt_273609-53007.jpg?size=626&ext=jpg&uid=R134535407&ga=GA1.1.71340048.1688965399&semt=sph"
               />
             </div>
           </div>

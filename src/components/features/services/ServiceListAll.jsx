@@ -1,4 +1,4 @@
-import ImageOne from "../../../assets/images/services/service-1.jpeg";
+import ImageOne from "../../../assets/images/services/service-1.jpg";
 import ImageTwo from "../../../assets/images/services/service-2.jpeg";
 import ImageThree from "../../../assets/images/services/service-3.jpeg";
 import ImageFour from "../../../assets/images/services/service-4.jpeg";
@@ -66,7 +66,7 @@ export default function ServiceListAll() {
           <img
             src={ImageOne}
             alt="Image One List"
-            className="h-[470px] w-full object-cover md:h-full"
+            className="size-full object-cover md:h-full"
           />
         </div>
       </div>

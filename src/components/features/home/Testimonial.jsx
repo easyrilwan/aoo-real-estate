@@ -3,7 +3,7 @@ import { RxStar, RxStarFilled } from "react-icons/rx";
 
 export default function Testimonial({ description, name, avatar }) {
   return (
-    <div className="h-full w-full rounded-xl border border-aaooBlack p-6 shadow-md">
+    <div className="flex h-full w-full flex-col justify-between rounded-xl border border-aaooBlack p-6 shadow-md">
       <div className="flex text-2xl text-yellow-400 sm:text-[1.75rem]">
         <RxStarFilled />
         <RxStarFilled />
