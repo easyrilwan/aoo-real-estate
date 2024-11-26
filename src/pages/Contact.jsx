@@ -74,7 +74,7 @@ export default function Contact() {
                       E-Mail:
                     </h6>
                     <p className="text-xs font-medium text-aaooGray md:text-xl">
-                      aao.realtor@gmail.com
+                      a0o.realtors@gmail.com
                     </p>
                   </div>
                 </div>
