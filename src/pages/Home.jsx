@@ -104,7 +104,7 @@ export default function Home() {
               <h1 className="space-x-2 text-lg font-semibold md:text-[32px] md:leading-10">
                 <span className="text-aaooGray">At</span> A. OLUWAFEMI
                 OKEBUKUNOLA & CO
-                <span className="font-normal lowercase text-aaooGray md:pl-1">
+                <span className="text-left font-normal lowercase text-aaooGray">
                   we pride ourselves on delivering exceptional estate surveying
                   and valuation services tailored to our clients unique needs.
                 </span>
@@ -261,8 +261,8 @@ export default function Home() {
             className="my-16 space-y-6"
           >
             <div className="text-center sm:space-y-4">
-              <h1 className="text-lg font-semibold uppercase md:text-5xl">
-                FREQUENTLY ASKED QUESTIONS
+              <h1 className="text-lg font-semibold capitalize md:text-5xl">
+                frequently asked questions
               </h1>
               <p className="text-base capitalize text-aaooGray md:text-2xl">
                 how may i help you?
