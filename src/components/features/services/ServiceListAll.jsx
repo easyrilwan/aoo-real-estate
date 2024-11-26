@@ -30,23 +30,33 @@ export default function ServiceListAll() {
             </div>
             <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Lease administration and tenant relations</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Property maintenance and inspections</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Rent collection and financial reporting</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Marketing and tenant acquisition</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Legal compliance and advisory services</p>
               </div>
             </div>
@@ -91,19 +101,27 @@ export default function ServiceListAll() {
             </div>
             <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Residential and commercial properties</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Agricultural and industrial lands</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Machinery, plants, and equipment</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div className="self-start">
+                  <IoCheckmarkCircle />
+                </div>
                 <p>
                   Investment and financial valuation for banks, corporate and
                   individual organizations.
@@ -151,19 +169,27 @@ export default function ServiceListAll() {
             </div>
             <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Market research and feasibility studies</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Investment analysis and strategic planning</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Urban development and regeneration consultancy</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Property development and project management</p>
               </div>
             </div>
@@ -207,19 +233,29 @@ export default function ServiceListAll() {
             </div>
             <div className="space-y-6 text-sm md:text-2xl">
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Property sales and acquisitions</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <div>
+                    <IoCheckmarkCircle />
+                  </div>
+                </div>
                 <p>Residential, commercial, and industrial leasing</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Marketing and negotiations on behalf of clients</p>
               </div>
               <div className="flex items-center gap-2">
-                <IoCheckmarkCircle />
+                <div>
+                  <IoCheckmarkCircle />
+                </div>
                 <p>Buyer and seller representation</p>
               </div>
             </div>

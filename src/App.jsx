@@ -5,10 +5,12 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
+import ScrollToTop from "./ui/ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="home" />} />

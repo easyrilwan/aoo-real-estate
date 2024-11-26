@@ -3,7 +3,6 @@ import HeroContact from "../assets/images/contact/image-9.jpeg";
 import ContactForm from "../components/features/contact/ContactForm";
 import { IoMdCall } from "react-icons/io";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
-import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -156,6 +155,7 @@ export default function Contact() {
                 </div>
                 <a
                   href="https://wa.me/+2347067509767"
+                  target="_blank"
                   className="inline-flex rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl"
                 >
                   <RiWhatsappFill color="white" />
@@ -171,7 +171,7 @@ export default function Contact() {
         >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7279964614327!2d3.2473841748320766!3d6.555981993437157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b85ec51c05cad%3A0xdc09744f3d6e02d7!2s.!5e0!3m2!1sen!2sng!4v1732003622289!5m2!1sen!2sng"
-            allowfullscreen="true"
+            allowFullScreen="true"
             loading="lazy"
             className="h-full w-full object-cover grayscale"
           ></iframe>
