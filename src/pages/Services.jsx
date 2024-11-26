@@ -4,7 +4,7 @@ import ServiceListAll from "../components/features/services/ServiceListAll";
 
 export default function Services() {
   return (
-    <section className="px-3 md:px-0">
+    <section className="px-3 py-4 md:px-0">
       <div className="space-y-10 text-aaooBlack">
         <div
           aria-label="About Hero"
@@ -13,7 +13,7 @@ export default function Services() {
           <img
             src={Hero}
             alt="About Page Image"
-            className="h-full w-full object-cover brightness-50"
+            className="min-h-[233px] w-full object-cover brightness-50"
           />
           <div className="absolute bottom-[20%] left-[10%]">
             <h1 className="text-base font-bold text-aaooBgGray md:text-6xl">

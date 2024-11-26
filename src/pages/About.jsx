@@ -5,7 +5,7 @@ import ServiceCard from "../components/features/home/ServiceCard";
 
 export default function About() {
   return (
-    <section className="mb-8 px-3">
+    <section className="mb-8 px-3 py-4">
       <div className="space-y-10 text-aaooBlack">
         <div
           aria-label="About Hero"

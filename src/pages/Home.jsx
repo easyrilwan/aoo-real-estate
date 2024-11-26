@@ -19,9 +19,9 @@ import FeaturedImage2 from "../assets/images/home/image-3.png";
 export default function Home() {
   return (
     <section>
-      <div className="grid grid-cols-1 gap-3 gap-y-10 px-3 py-4 capitalize md:grid-cols-2 md:px-0 md:py-16">
+      <div className="grid grid-cols-1 gap-3 gap-y-10 px-3 py-4 capitalize md:px-0 md:py-16 lg:grid-cols-2">
         <div className="space-y-6 self-center text-aaooBlack">
-          <h1 className="text-[2rem] font-semibold md:text-6xl">
+          <h1 className="text-[2rem] font-semibold leading-10 md:text-6xl">
             making your <span className="text-aaooRed">home</span> ownership
             dreams come true
           </h1>
@@ -83,7 +83,7 @@ export default function Home() {
       </div>
 
       <div className="grid place-items-center gap-8 px-3 py-4 capitalize md:px-0 md:py-6">
-        <div className="grid grid-cols-2 items-center gap-x-2 sm:gap-x-6">
+        <div className="grid grid-cols-1 items-center gap-x-4 gap-y-6 md:grid-cols-2">
           <div className="h-full w-full overflow-hidden rounded-3xl shadow-md">
             <img
               src={Home_5}
@@ -94,9 +94,10 @@ export default function Home() {
 
           <div className="flex flex-col justify-between gap-10">
             <div className="space-y-4">
-              <h1 className="space-x-2 text-[9px] font-semibold sm:text-[32px]">
-                At A. OLUWAFEMI OKEBUKUNOLA & CO
-                <span className="pl-1 font-normal lowercase">
+              <h1 className="space-x-2 text-lg font-semibold md:text-[32px] md:leading-10">
+                <span className="text-aaooGray">At</span> A. OLUWAFEMI
+                OKEBUKUNOLA & CO
+                <span className="font-normal lowercase md:pl-1">
                   we pride ourselves on delivering exceptional estate surveying
                   and valuation services tailored to our clients unique needs.
                 </span>
@@ -104,7 +105,7 @@ export default function Home() {
 
               <Link
                 to=""
-                className="inline-flex items-center gap-4 rounded-md border-2 border-aaooBlack bg-aaooBlack p-[3px] text-[8px] text-aaooWhite transition-all hover:border-2 hover:border-aaooBlack hover:bg-transparent hover:text-aaooBlack sm:rounded-xl sm:border-4 sm:p-2 sm:text-xl sm:hover:border-4"
+                className="inline-flex items-center gap-4 rounded-2xl border-4 border-aaooBlack bg-aaooBlack px-6 py-2 text-sm text-aaooWhite transition-all hover:border-4 hover:border-aaooBlack hover:bg-transparent hover:text-aaooBlack md:p-2 md:text-lg"
               >
                 Read More
               </Link>
@@ -117,7 +118,7 @@ export default function Home() {
         aria-label="Featured Properties"
         className="space-y-4 px-3 py-6 capitalize sm:py-14 md:px-0"
       >
-        <div className="flex w-full flex-col items-center space-y-2 text-center md:space-y-5">
+        <div className="flex w-full flex-col items-center space-y-2 text-center md:space-y-4">
           <h1 className="text-2xl font-semibold md:text-5xl">
             featured properties
           </h1>
@@ -158,12 +159,12 @@ export default function Home() {
         </marquee>
       </div>
 
-      <div className="w-full px-3 md:space-y-6 md:px-0">
+      <div className="w-full space-y-4 px-3 md:space-y-6 md:px-0">
         <div className="flex flex-col items-center gap-2 text-center capitalize">
           <h1 className="text-[22px] font-semibold md:text-5xl">
             our services
           </h1>
-          <p className="text-xs text-aaooGray sm:w-[75%] sm:text-2xl">
+          <p className="text-xs text-aaooGray sm:w-[75%] md:text-2xl">
             We offer various services as AOO ranging from Property management,
             Property valuation, Real estate consultancy and Real estate agency.
           </p>
@@ -190,20 +191,22 @@ export default function Home() {
           </div>
 
           <div className="my-16 h-full w-full space-y-4">
-            <div className="space-y-2">
+            <div className="size-full space-y-2">
               <h1 className="text-base text-aaooGray sm:text-2xl">
                 Testimonial
               </h1>
 
-              <div className="flex flex-col sm:items-center md:justify-between">
-                <h2 className="text-left font-Montserrat text-[22px] font-semibold capitalize sm:text-2xl md:text-5xl">
+              <div className="grid w-full grid-cols-1 justify-between sm:grid-cols-[1fr_2fr]">
+                <h2 className="font-Montserrat text-[22px] font-semibold capitalize sm:text-2xl md:text-5xl">
                   what our clients say
                 </h2>
 
-                <p className="text-xs capitalize text-aaooGray sm:text-center sm:text-2xl md:w-[100%]">
-                  We take pride in delivering accurate insights and exceptional
-                  customer experiences for every project.
-                </p>
+                <div className="flex w-full justify-end lg:justify-end">
+                  <p className="w-full text-xs capitalize text-aaooGray sm:text-center md:w-[80%] md:text-2xl">
+                    We take pride in delivering accurate insights and
+                    exceptional customer experiences for every project.
+                  </p>
+                </div>
               </div>
             </div>
 

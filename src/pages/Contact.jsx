@@ -6,7 +6,7 @@ import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
 
 export default function Contact() {
   return (
-    <section className="px-3 md:px-0">
+    <section className="px-3 py-4 md:px-0">
       <div className="mb-20 space-y-20">
         <div
           aria-label="About Hero"

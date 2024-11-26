@@ -59,22 +59,19 @@ export default function Footer() {
           </div>
 
           <div className="w-full self-center md:col-span-3 lg:col-span-1">
-            <Link
-              to="/contact"
-              className="relative block w-full overflow-hidden rounded-2xl border border-aaooGray"
-            >
+            <div className="relative block w-full overflow-hidden rounded-2xl border border-aaooGray">
               <input
                 type="email"
                 placeholder="Enter your mail"
                 className="w-full bg-transparent px-2 py-6 text-xs text-aaooWhite caret-aaooWhite outline-none sm:text-base"
               />
-              <span className="absolute right-3 top-3 flex items-center gap-1 rounded-2xl bg-aaooWhite px-3 py-3 text-xs text-aaooBlack hover:bg-none sm:top-2 sm:text-base">
+              <span className="absolute right-3 top-3 flex items-center gap-1 rounded-xl bg-aaooWhite px-3 py-3 text-xs text-aaooBlack hover:bg-none sm:top-2 sm:rounded-2xl sm:text-base">
                 Contact Us
                 <span className="inline-flex text-xs sm:text-[30px]">
                   <GoArrowRight />
                 </span>
               </span>
-            </Link>
+            </div>
           </div>
         </div>
       </div>
