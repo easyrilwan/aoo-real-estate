@@ -190,7 +190,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="my-16 h-full w-full space-y-4">
+          <div className="my-8 h-full w-full space-y-4">
             <div className="size-full space-y-2">
               <h1 className="text-base text-aaooGray sm:text-2xl">
                 Testimonial
