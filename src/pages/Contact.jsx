@@ -91,7 +91,7 @@ export default function Contact() {
                   </div>
                   <Link
                     to="https://wa.me/+2347067509767"
-                    className="inline-flex rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl"
+                    className="inline-flex cursor-pointer rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl"
                   >
                     <RiWhatsappFill color="white" />
                   </Link>
