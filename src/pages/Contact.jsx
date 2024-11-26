@@ -3,6 +3,7 @@ import HeroContact from "../assets/images/contact/image-9.jpeg";
 import ContactForm from "../components/features/contact/ContactForm";
 import { IoMdCall } from "react-icons/io";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -88,9 +89,12 @@ export default function Contact() {
                   <div className="inline-flex rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl">
                     <RiInstagramFill color="white" />
                   </div>
-                  <div className="inline-flex rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl">
+                  <Link
+                    to="https://wa.me/+2347067509767"
+                    className="inline-flex rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl"
+                  >
                     <RiWhatsappFill color="white" />
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
