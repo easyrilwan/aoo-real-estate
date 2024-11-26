@@ -89,12 +89,13 @@ export default function Contact() {
                   <div className="inline-flex rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl">
                     <RiInstagramFill color="white" />
                   </div>
-                  <Link
-                    to="https://wa.me/+2347067509767"
+                  <a
+                    href="https://wa.me/+2347067509767"
+                    target="_blank"
                     className="inline-flex cursor-pointer rounded-full bg-aaooBlack p-2 text-3xl md:p-4 md:text-5xl"
                   >
                     <RiWhatsappFill color="white" />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
