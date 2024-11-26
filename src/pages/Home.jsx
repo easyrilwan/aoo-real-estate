@@ -203,13 +203,13 @@ export default function Home() {
                 Testimonial
               </h1>
 
-              <div className="grid w-full grid-cols-1 justify-between sm:grid-cols-[1fr_2fr]">
+              <div className="grid w-full grid-cols-1 justify-between gap-2 sm:grid-cols-[1fr_2fr]">
                 <h2 className="font-Montserrat text-[22px] font-semibold capitalize sm:text-2xl md:text-5xl">
                   what our clients say
                 </h2>
 
                 <div className="flex w-full justify-end lg:justify-end">
-                  <p className="w-full text-xs capitalize text-aaooGray sm:text-center md:w-[80%] md:text-2xl">
+                  <p className="w-fit justify-self-end text-xs capitalize text-aaooGray md:w-[80%] md:text-2xl">
                     We take pride in delivering accurate insights and
                     exceptional customer experiences for every project.
                   </p>
